@@ -8,14 +8,14 @@ on:
 
 jobs:
   Release-solution-ALMLab:
-    uses: ./.github/workflows/release-solution-with-inputs.yml
+    uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: Class
+      solution_name: ClassRegistrationBaseSolution
       #Update your values here
-      BUILD_ENVIRONMENT_URL: <BUILD_ENVIRONMENT>
-      PRODUCTION_ENVIRONMENT_URL: <PROD_ENVIRONMENT>
-      CLIENT_ID: <APP_ID>
-      TENANT_ID: <TENANT_ID>      
+      BUILD_ENVIRONMENT_URL: 'https://orgb0acbc30.crm.dynamics.com'
+      PRODUCTION_ENVIRONMENT_URL: 'https://orgef7407a6.crm.dynamics.com'
+      CLIENT_ID: '43a43722-7d18-48f4-8e3b-adfa518e7561'
+      TENANT_ID: '83d34fae-1923-40db-a51b-e37e5df5faa5'     
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
