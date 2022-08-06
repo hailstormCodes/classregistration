@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_hd_class" />
+  <EntityRelationship Name="business_unit_hd_registration" />
+  <EntityRelationship Name="business_unit_hd_session" />
+  <EntityRelationship Name="lk_hd_class_createdby" />
+  <EntityRelationship Name="lk_hd_class_modifiedby" />
+  <EntityRelationship Name="lk_hd_registration_createdby" />
+  <EntityRelationship Name="lk_hd_registration_modifiedby" />
+  <EntityRelationship Name="lk_hd_session_createdby" />
+  <EntityRelationship Name="lk_hd_session_modifiedby" />
+  <EntityRelationship Name="owner_hd_class" />
+  <EntityRelationship Name="owner_hd_registration" />
+  <EntityRelationship Name="owner_hd_session" />
+  <EntityRelationship Name="team_hd_class" />
+  <EntityRelationship Name="team_hd_registration" />
+  <EntityRelationship Name="team_hd_session" />
+  <EntityRelationship Name="user_hd_class" />
+  <EntityRelationship Name="user_hd_registration" />
+  <EntityRelationship Name="user_hd_session" />
+</EntityRelationships>
